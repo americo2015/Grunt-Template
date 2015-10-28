@@ -1,0 +1,22 @@
+// style.css
+
+// compass imports
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/filter";
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+
+// External libraries
+@import "susy";
+@import "breakpoint";
+
+// Partials
+@import "variables"; // Colors and fonts
+@import "mixins"; // Functions
+@import "base"; // Default styles
+@import "layout"; // Base layout
+
+
+// Modules
+//@import "modules/*.scss";
